@@ -27,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:dev": "env-cmd -f .env.development yarn build && firebase deploy",
+    "build:prod": "env-cmd -f .env.production yarn build && firebase deploy"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +50,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.1.7"
+    "@types/react-router-dom": "^5.1.7",
+    "env-cmd": "^10.1.0"
   }
 }

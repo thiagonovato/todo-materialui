@@ -21,6 +21,7 @@ export const AuthProvider = ({ children }: IProps) => {
   const [user, setUser] = useState<any>();
   const [loading, setLoading] = useState(true);
 
+
   useEffect(() => {
     async function loadUser() {
       auth.onAuthStateChanged(function (user) {
