@@ -1,6 +1,7 @@
 # ToDo List
 
-Este projeto pode ser acessado [aqui.](https://vibbrante-thiagonovato.web.app/).
+Este projeto pode ser acessado [aqui.](https://vibbrante-thiagonovato.web.app/)
+Vídeo explicativo [aqui.](https://www.loom.com/share/8b5be76c4788404bb7af7c80834848d4)
 
 ## Descritivo do Projeto
 
